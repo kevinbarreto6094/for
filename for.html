@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ingreso de Nombre y Edad</title>
+</head>
+<body>
+
+<script>
+
+var nombre = prompt("¿Cuál es tu nombre?");
+var edad = prompt("¿Cuántos años tienes?");
+edad = parseInt(edad); 
+
+
+document.write("Yo me llamo " + nombre +  "<br>");
+
+
+for (var x= 1; x <= edad; x++) {
+    document.write("Yo me llamo " + nombre + "<br>");
+    document.write(x + "<br>");
+
+
+    if (x== edad) {
+        document.write("<img src='https://lh6.googleusercontent.com/proxy/txsL3DKsXNvD80YtiF-KzsZMGs4eiJQp8YVCGAr9YMUlbBQmgCQ-9U6aa5AZcbAZGxqS54OSNZajxHNwYBUgelMmcGRMSjf86E46Am5HVp-r9b5dVMqMZEuDn3l08X1DgdVBwDqdufR-7-GbJA' alt='Imagen final'>");
+    }
+}
+</script>
+
+</body>
+</html>
